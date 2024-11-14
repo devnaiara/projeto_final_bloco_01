@@ -1,6 +1,6 @@
 package vibes80s.model;
 
-public abstract class Album {
+public class Album {
 	private String nome;
 	private int ano;
 	private double valor;
@@ -30,7 +30,7 @@ public abstract class Album {
 	}
 	
 	public void comprar() {
-        System.out.println("\nComprando o álbum: "+ nome + "por R$: "+valor);
+        System.out.println("\nComprando o álbum: "+ nome + " por R$: "+valor);
 	}
 	
 }

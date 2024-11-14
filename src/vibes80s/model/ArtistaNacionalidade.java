@@ -22,7 +22,7 @@ public class ArtistaNacionalidade extends Artista {
 	
 	@Override
 	public void comprar() {
-        System.out.println("\n Comprando álbuns do artista: "+ getNome()+ "da nacionalidade:" +nacionalidade);
+        System.out.println("\n Comprando álbuns do artista: "+ getNome()+ " da nacionalidade: " +nacionalidade);
         for (Album album:getAlbuns()) {
         	album.comprar();
         }
